@@ -8,7 +8,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     static SQLiteDatabase database;
@@ -33,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void openDatabase(){
         database = openOrCreateDatabase("myvoca.db", MODE_PRIVATE, null);
-        if(database != null)
-            Toast.makeText(getApplicationContext(),"openDB",Toast.LENGTH_SHORT).show();
+      //  if(database != null)
+        //    Toast.makeText(getApplicationContext(),"openDB",Toast.LENGTH_SHORT).show();
         //     DatabaseHelper databaseHelper = new DatabaseHelper(this,dbname,null,1);
         //     database = databaseHelper.getWritableDatabase();
 

@@ -20,7 +20,7 @@ import static com.example.swengineering_3.MainActivity.database;
 
 public class MyVocaActivity extends AppCompatActivity {
     private static final int REQUEST_CODE_INSERT = 1000;
-    static ListAdapter adapter;
+    ListAdapter adapter;
     Cursor cursor;
     ListView list;
     ArrayList<HashMap<String,String>> chapterArray;

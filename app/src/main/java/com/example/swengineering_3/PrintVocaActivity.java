@@ -1,6 +1,5 @@
 package com.example.swengineering_3;
 
-import android.content.Intent;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.support.v7.app.AppCompatActivity;
@@ -17,7 +16,7 @@ import java.util.HashMap;
 
 import static com.example.swengineering_3.MainActivity.database;
 import static com.example.swengineering_3.MainActivity.dbname;
-import static com.example.swengineering_3.MyVocaActivity.adapter;
+
 
 public class PrintVocaActivity extends AppCompatActivity {
 
@@ -35,7 +34,7 @@ public class PrintVocaActivity extends AppCompatActivity {
 
         //이전 액티비티에서 chapName 받아옴
         final String chap = getIntent().getStringExtra("chapName");
-        Toast.makeText(getApplicationContext(),chap,Toast.LENGTH_SHORT).show();
+      //  Toast.makeText(getApplicationContext(),chap,Toast.LENGTH_SHORT).show();
         list = (ListView)findViewById(R.id.vocaListView);
         vocaArray = new ArrayList<HashMap<String, String>>();
         showVocaList(chap);
@@ -51,7 +50,6 @@ public class PrintVocaActivity extends AppCompatActivity {
     }
     private void showVocaList(String chap){
         /*다른 Activity 에서 쓰고 싶으면 chap.put(..... ,c)이랑 int[] to ={.....} .....부분 고치면 돼!*/
-        Voca v = new Voca();
         try{
             Cursor cursor = selectVoca(chap);  //cursor에 챕터 테이블 안의 단어들을 모두 가져온다
             if(cursor != null) {

@@ -1,0 +1,12 @@
+success:성공
+depend:의존하다
+modern:근대의,현대적인
+expect:예상하다
+quite:완전히,제법
+truth:진실
+unite:결합하다,단결하다
+abroad:해외로
+army:군대
+probable:가능한
+whether:~인지 어떤지
+accord:일치하다,조화시키다
