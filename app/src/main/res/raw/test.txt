@@ -1,0 +1,3 @@
+apple:사과
+banana:바나나
+green:초록
