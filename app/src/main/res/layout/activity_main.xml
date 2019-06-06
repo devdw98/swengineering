@@ -24,29 +24,35 @@
     <Button
         android:id="@+id/studyButton"
         style="@style/Widget.AppCompat.Button.Colored"
+        android:background="#00ff0000"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:text="@string/study"
-        android:textSize="50sp" />
+        android:textSize="50sp"
+        android:textColor="#ff55aaff"/>
 
     <Button
         android:id="@+id/testButton"
         style="@style/Widget.AppCompat.Button.Colored"
+        android:background="#00ff0000"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:text="@string/test"
-        android:textSize="50sp" />
+        android:textSize="50sp"
+        android:textColor="#ff55aaff"/>
 
     <Button
         android:id="@+id/myvocaButton"
         style="@style/Widget.AppCompat.Button.Colored"
+        android:background="#00ff0000"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:text="@string/myvoca"
-        android:textSize="50sp" />
+        android:textSize="50sp"
+        android:textColor="#ff55aaff"/>
 
 
 </LinearLayout>
