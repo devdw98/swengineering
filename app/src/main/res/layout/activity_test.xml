@@ -75,7 +75,7 @@
 
     <Button
         android:id="@+id/enterButton"
-        android:text="입 력"
+        android:text="enter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"

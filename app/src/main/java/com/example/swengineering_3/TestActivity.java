@@ -29,7 +29,7 @@ import javax.xml.transform.Result;
 import static com.example.swengineering_3.MainActivity.database;
 
 public class TestActivity extends AppCompatActivity {
-    private int MILLISINFUTURE = 16*1000*3;
+    private int MILLISINFUTURE = 16*1000;
     private int COUNT_DOWN_INTERVAL = 1000;
     ArrayList<HashMap<String,String>> vocaArray;
     ArrayList<HashMap<String,String>> wrongVoca;
