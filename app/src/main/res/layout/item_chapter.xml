@@ -7,9 +7,10 @@
     <TextView
         android:id="@+id/itemChapter"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="40dp"
         android:text=" Chapter Name"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textSize="30sp"
+        android:layout_marginHorizontal="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
 
 </LinearLayout>
